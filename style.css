@@ -674,7 +674,12 @@ color: #6c14e7;}
 
 
 @media(max-width:460px){
+    .header__content{
+    margin-top: 40px;}
 
+    .header__content-links{
+    bottom: 0;
+    padding-top: 30px;}
 
    .item__1__img,
    .item__2__img{
