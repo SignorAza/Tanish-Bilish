@@ -24,7 +24,8 @@ margin-top: 15px;
 
 .header__nav{
 display: flex;
-justify-content:space-between;}
+justify-content:space-between;
+gap: 10px;}
 
 .header__nav-logo-box{
 display: flex;
@@ -599,6 +600,10 @@ color: #6c14e7;}
 }
 
 @media(max-width:920px){
+    .header__content{
+    display: flex;
+    gap: 20px;}
+
     .links{
     display: flex;
     flex-direction: column;
@@ -607,6 +612,8 @@ color: #6c14e7;}
 }
 
 @media(max-width:750px){
+    .header__content{
+    margin-top: 20px;}
 
     .header__nav-list{
     justify-content: center;}   
@@ -624,6 +631,14 @@ color: #6c14e7;}
 
 
 @media(max-width:532px){
+
+    .header__content{
+    margin-top: 40px;}
+    
+    .header__content-links{
+    bottom: 0;
+    padding-top: 30px;}
+
     .header__content-links{
     flex-wrap: wrap;
     gap: 25px;
